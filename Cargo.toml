@@ -4,3 +4,13 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+clap = "4.5.4"
+grass = { version = "0.13.3", default-features = false, features = ["random"] }
+marked-yaml = { version = "0.5.2", features = ["serde-path"] }
+minifier = "0.3.0"
+pulldown-cmark = "0.11.0"
+rust-embed = { version = "8.4.0", features = ["interpolate-folder-path", "include-exclude"] }
+serde = { version = "1.0.203", features = ["derive"] }
+serde_json = "1.0.117"
+tera = "1.20.0"
+thiserror = "1.0.61"
